@@ -7,14 +7,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\**" />
     <Compile Remove="NovaPasta1\**" />
     <Compile Remove="NovaPasta\**" />
+    <Content Remove="Migrations\**" />
     <Content Remove="NovaPasta1\**" />
     <Content Remove="NovaPasta\**" />
+    <EmbeddedResource Remove="Migrations\**" />
     <EmbeddedResource Remove="NovaPasta1\**" />
     <EmbeddedResource Remove="NovaPasta\**" />
+    <None Remove="Migrations\**" />
     <None Remove="NovaPasta1\**" />
     <None Remove="NovaPasta\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="DbApp.db" />
   </ItemGroup>
 
   <ItemGroup>
